@@ -1,1 +1,4 @@
-.
+def matrix_multiplication(A, B):
+    if A.shape[1] != B.shape[0]:
+        return ("Kích thước không tương thích để nhân ma trận!")
+    return np.dot(A, B)
